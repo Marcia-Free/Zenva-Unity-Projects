@@ -10,7 +10,7 @@ public class BalloonController : MonoBehaviour
     {
         clicksToPop--;
 
-        //increases the balloon's scale per click
+        //increases the balloon's scale every click
         transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
 
         //when this reaches 0 it destroys the balloon
@@ -21,15 +21,4 @@ public class BalloonController : MonoBehaviour
 
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
