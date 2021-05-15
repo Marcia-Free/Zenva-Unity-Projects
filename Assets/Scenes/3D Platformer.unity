@@ -200,7 +200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  rig: {fileID: 16834856}
+  jumpForce: 6
+  playerRig: {fileID: 16834856}
 --- !u!1 &605907864
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +372,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: f2b59db2b516ff34a939de8717af15a5, type: 2}
     - target: {fileID: 919132149155446097, guid: ddecac6df90a40641979292a3fc8ff54, type: 3}
       propertyPath: m_Name
-      value: advancedCharacter
+      value: Model
       objectReference: {fileID: 0}
     - target: {fileID: 1424227393183922488, guid: ddecac6df90a40641979292a3fc8ff54, type: 3}
       propertyPath: m_Materials.Array.data[0]
